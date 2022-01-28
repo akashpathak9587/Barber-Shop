@@ -1,0 +1,142 @@
+.footer {
+    padding: 100px 200px;
+    background: url(../img/footer_bg.png);
+    color: #fff;
+    &-wrapper {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        border-bottom: 1px solid #233148;
+        padding-bottom: 100px;
+        &-box {
+            width: 300px;
+            &-img {
+                img {
+                    width: 100px;
+                }
+            }
+            &-para {
+                margin: 30px 0;
+                p {
+                    font-size: 16px;
+                    font-weight: 300;
+                    color: rgba(148, 144, 144, 0.79);
+                }
+            }
+            &-number {
+                h5 {
+                    font-size: 35px;
+                    span {
+                        color: rgb(232, 189, 20);
+                        font-family: "oswald", sans-serif;
+                    }
+                }
+            }
+            &-email {
+                p {
+                    font-size: 16px;
+                    font-weight: 300;
+                    color: rgba(148, 144, 144, 0.79);
+                }
+            }
+            &-title {
+                padding-bottom: 50px;
+            }
+            &-links {
+                &-list {
+                    li {
+                        padding-bottom: 10px;
+                        text-transform: capitalize;
+                        a {
+                            color: rgba(148, 144, 144, 0.79);
+                            transition: all 0.5s ease;
+                        }
+                        &:hover {
+                            a {
+                                padding-left: 5px;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+            &-para-1 {
+                p {
+                    font-size: 16px;
+                    font-weight: 300;
+                    color: rgba(148, 144, 144, 0.79);
+                }
+            }
+            &-form {
+                margin-top: 30px;
+                form {
+                    input {
+                        padding: 10px 20px;
+                        background: transparent;
+                        outline: none;
+                        border: none;
+                        color: #fff;
+                        background-color: #101720;
+                        width: 210px;
+                    }
+                    .button {
+                        background: #0a0f17;
+                        padding: 10px 20px;
+                        cursor: pointer;
+                        width: max-content;
+                        text-transform: capitalize;
+                        color: rgb(232, 189, 20);
+                        font-family: "poppins", sans-serif;
+                    }
+                }
+            }
+        }
+    }
+    &-copyright {
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-between;
+        &-para {
+            p {
+                font-size: 16px;
+                font-weight: 300;
+                color: rgba(148, 144, 144, 0.79);
+                i {
+                    color: rgb(232, 189, 20);
+                }
+                span {
+                    a {
+                        color: rgb(232, 189, 20);
+                        transition: all 0.5s ease;
+                    }
+                    &:hover {
+                        a {
+                            color: rgba(148, 144, 144, 0.79);
+                        }
+                    }
+                }
+            }
+        }
+        &-social {
+            ul {
+                display: flex;
+                justify-content: space-between;
+                width: 150px;
+                li {
+                    a {
+                        color: rgba(148, 144, 144, 0.79);
+                        transition: all 0.5s ease;
+                        i {
+                            font-size: 20px;
+                        }
+                    }
+                    &:hover {
+                        a {
+                            color: rgba(207, 177, 55, 0.824);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

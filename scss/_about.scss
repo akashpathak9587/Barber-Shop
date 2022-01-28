@@ -1,0 +1,26 @@
+.about {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-gap: 200px;
+    width: 100%;
+    position: relative;
+    &-content {
+        padding: 100px 0;
+        &-heading {
+            margin-top: 20px;
+        }
+        &-para {
+            width: 80%;
+            margin: 50px 0;
+            p {
+                font-weight: 300;
+                font-size: 16px;
+            }
+        }
+    }
+    &-shape {
+        position: absolute;
+        right: 100px;
+        bottom: 200px;
+    }
+}

@@ -1,0 +1,83 @@
+.blog {
+    &-title {
+        padding: 50px 0;
+        &-heading {
+            padding: 0 250px;
+        }
+    }
+    &-wrapper {
+        display: flex;
+        gap: 30px;
+        &-box {
+            &-image {
+                position: relative;
+                &-date {
+                    position: absolute;
+                    bottom: 7px;
+                    left: 0;
+                    background: #000;
+                    color: #fff;
+                    padding: 5px 30px;
+                    transition: all 0.5s ease;
+                    p {
+                        text-align: center;
+                        font-size: 30px;
+                        font-weight: 700;
+                    }
+                    span {
+                        font-weight: 300;
+                        font-size: 15px;
+                        display: block;
+                        margin-top: -10px;
+                        font-family: "poppins", sans-serif;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+            &-content {
+                padding: 40px;
+                margin-top: -8px;
+                border: 1px solid transparent;
+                transition: all 0.5s ease;
+                &-subheading {
+                    p {
+                        font-size: 16px;
+                        font-weight: 300;
+                    }
+                }
+                &-heading {
+                    margin: 10px 0;
+                    a {
+                        color: #000;
+                        transition: all 0.3s;
+                        &:hover {
+                            color: rgba(207, 177, 55, 0.824);
+                        }
+                    }
+                }
+                &-link {
+                    a {
+                        color: #000;
+                        transition: all 0.3s;
+                        text-transform: uppercase;
+                        h5 {
+                            font-size: 13px;
+                            font-weight: 300;
+                        }
+                        &:hover {
+                            color: #014b85;
+                        }
+                    }
+                }
+            }
+            &:hover {
+                .blog-wrapper-box-content {
+                    border: 1px solid rgb(232, 189, 20);
+                }
+                .blog-wrapper-box-image-date {
+                    background: rgb(232, 189, 20);
+                }
+            }
+        }
+    }
+}
